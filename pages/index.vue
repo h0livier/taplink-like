@@ -24,7 +24,7 @@ import Title from '~/components/title.vue';
                     <Title text="Informations de contact" />
                     <LinkBasic title="Email" text="olivier.hayot.dev@gmail.com" link="mailto:olivier.hayot.dev@gmail.com" />
                     <LinkBasic title="Site Web" text="https://olivierhayot-landing.odoo.com" link="https://olivierhayot-landing.odoo.com" />
-                    <LinkBasic title="Mon CV" text="https://olivier.hayot.cloud" link="https://olivier.hayot.cloud" />
+                    <LinkBasic title="Mon CV" text="https://cv.olivierhayot.be" link="https://cv.olivierhayot.be" />
                 </Section>
             </div>
         </div>
