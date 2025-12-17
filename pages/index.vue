@@ -3,8 +3,8 @@ import { LinkBasic, LinkBrand } from '#components';
 import Title from '~/components/title.vue';
 </script>
 <template>
-    <main class="flex justify-center py-10">
-        <div class="bg-[#1F1D21] shadow-md rounded-lg pt-10 px-5 w-[95vw] md:w-[50vw] lg:w-[40vw] xl:w-[30vw]">
+    <main class="flex justify-center py-10 bg-[#1F1D21]">
+        <div class=" shadow-md rounded-lg pt-10 px-5 w-[95vw] md:w-[50vw] lg:w-[40vw] xl:w-[30vw]">
             <div>
                 <div class="avatar">
                     <div class="w-32 rounded-full">
@@ -24,7 +24,7 @@ import Title from '~/components/title.vue';
                     <Title text="Informations de contact" />
                     <LinkBasic title="Email" text="olivier.hayot.dev@gmail.com" link="mailto:olivier.hayot.dev@gmail.com" />
                     <LinkBasic title="Site Web" link="https://www.olivierhayot.be" />
-                    <LinkBasic title="Mon CV" badge-text="Nouveau" link="https://cv.olivierhayot.be" />
+                    <LinkBasic title="Mon CV" badge-text="Nouveau" link="https://cv.olivierhayot.be/fr" />
                 </Section>
             </div>
         </div>
