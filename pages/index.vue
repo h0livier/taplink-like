@@ -23,8 +23,8 @@ import Title from '~/components/title.vue';
                 <Section>
                     <Title text="Informations de contact" />
                     <LinkBasic title="Email" text="olivier.hayot.dev@gmail.com" link="mailto:olivier.hayot.dev@gmail.com" />
-                    <LinkBasic title="Site Web" text="https://www.olivierhayot.be" link="https://www.olivierhayot.be" />
-                    <LinkBasic title="Mon CV" text="https://cv.olivierhayot.be" link="https://cv.olivierhayot.be" />
+                    <LinkBasic title="Site Web" link="https://www.olivierhayot.be" />
+                    <LinkBasic title="Mon CV" badge-text="Nouveau" link="https://cv.olivierhayot.be" />
                 </Section>
             </div>
         </div>
