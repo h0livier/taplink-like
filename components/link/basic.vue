@@ -11,7 +11,7 @@ var isEmail = ref(false);
 isEmail.value = props.link.startsWith("mailto:") && props.link.length > 0;
 </script>
 <template>
-    <div class="mb-3 py-4 px-2 rounded-md bg-[#202076]">
+    <div class="mb-3 py-4 px-2 rounded-md bg-[#2B2B9D]">
         <NuxtLink :href="props.link">
             <div class="flex items-center justify-between px-2">
                 <div class="grow flex gap-5 items-center">
