@@ -4,7 +4,7 @@ import Title from '~/components/title.vue';
 </script>
 <template>
     <main class="flex justify-center py-10 bg-[#1F1D21] md:bg-[#2C2A30] min-h-screen">
-        <div class="md:bg-[#1F1D21] shadow-md rounded-lg pt-10 px-5 w-[95vw] md:w-[50vw] lg:w-[40vw] xl:w-[30vw]">
+        <div class="md:bg-[#1F1D21] md:shadow-md md:rounded-lg pt-10 px-5 w-[95vw] md:w-[50vw] lg:w-[40vw] xl:w-[30vw]">
             <div>
                 <div class="avatar">
                     <div class="w-32 rounded-full">
