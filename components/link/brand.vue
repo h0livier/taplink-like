@@ -5,11 +5,9 @@ interface BrandLink{
     link: string
 }
 const props = defineProps<BrandLink>()
-const linkedin = '#364FC7'
-const github = '#333333'
 </script>
 <template>
-    <div :class="['mb-3',  'p-2', 'rounded-md', props.image=='linkedin' ? 'bg-[#364FC7]' : 'bg-[#333333]']">
+    <div :class="['mb-3',  'p-2', 'rounded-md', props.image=='linkedin' ? 'bg-[#0A66C2]' : 'bg-[#24292F]']">
         <NuxtLink :href="props.link">
             <div class="flex justify-center items-center">
                 <img v-if="props.image == 'github'" src="../../assets/github.png" class="w-10"/>
