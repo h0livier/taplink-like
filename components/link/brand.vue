@@ -5,8 +5,6 @@ interface BrandLink{
     link: string
 }
 const props = defineProps<BrandLink>()
-const linkedin = '#0A66C2'
-const github = '#24292F'
 </script>
 <template>
     <div :class="['mb-3',  'p-2', 'rounded-md', props.image=='linkedin' ? 'bg-[#0A66C2]' : 'bg-[#24292F]']">
